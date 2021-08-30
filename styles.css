@@ -3,14 +3,15 @@ body {
 }
 
 .main-container {
-    width: 800px;
+    width: 600px;
     margin: auto;
     /*background-color: orange;*/
     text-align: center;
 }
 
 .main-container h2 {
-    color: gray;
+    color: black;
+    font-weight: bold;
     font-size: 14px;
     margin-top: 30px;
 }
@@ -38,18 +39,54 @@ div h4:first-of-type {
 div h3:first-of-type {
     font-weight: bold;
     font-size: 14px;
-    color: darkgrey;
+    color: black;
     text-align: left;
 }
-#icons-container{
-    text-align: right;
+
+#icons-container :nth-child(1) {
+    display: inline-block ;
+    color: black ;
+    margin-right: 360px;
+    font-weight: bold;
 }
-#icons-container span {
+#icons-container :nth-child(2) {
     color:blue ;
 }
-
+#icons-container :nth-child(3) {
+    color:darkgreen ;
+}
+#icons-container :nth-child(4) {
+    color:orangered ;
+}
+#icons-container :nth-child(5) {
+    color:darkblue ;
+}
 #divider {
     border:1px solid gray;
     margin: 5px 0;
 }
 
+.comment{
+    margin-top: 20px;
+    width: 49%;
+    text-align: left;
+    display: inline-block;
+}
+
+.data {
+    margin-top: 20px;
+    width: 49%;
+    text-align: right;
+    display: inline-block;
+}
+
+.box {
+    margin-top: 20px;
+    width:524px;
+    height: 45px;
+}
+
+.comment-box {
+    text-align: left;
+    margin-top: 20px;
+}
